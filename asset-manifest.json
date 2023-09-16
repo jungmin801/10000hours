@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/10000hours/static/css/main.873ed5a8.css",
-    "main.js": "/10000hours/static/js/main.77cb538f.js",
+    "main.css": "/10000hours/static/css/main.85f174b2.css",
+    "main.js": "/10000hours/static/js/main.37268d8c.js",
     "static/media/GmarketSansBold.woff": "/10000hours/static/media/GmarketSansBold.92950d772ae8cf2f09fb.woff",
     "static/media/GmarketSansMedium.woff": "/10000hours/static/media/GmarketSansMedium.1301cf9eeb7b5a6b5937.woff",
     "static/media/tvn10fontMedium.woff": "/10000hours/static/media/tvn10fontMedium.de9454d9d7e53b4d6152.woff",
@@ -11,11 +11,11 @@
     "static/media/finger.svg": "/10000hours/static/media/finger.b26759db3b78efa3ab004dba4e703b27.svg",
     "static/media/quote.svg": "/10000hours/static/media/quote.04a18311ef6a757a84d1a05574c7bad0.svg",
     "index.html": "/10000hours/index.html",
-    "main.873ed5a8.css.map": "/10000hours/static/css/main.873ed5a8.css.map",
-    "main.77cb538f.js.map": "/10000hours/static/js/main.77cb538f.js.map"
+    "main.85f174b2.css.map": "/10000hours/static/css/main.85f174b2.css.map",
+    "main.37268d8c.js.map": "/10000hours/static/js/main.37268d8c.js.map"
   },
   "entrypoints": [
-    "static/css/main.873ed5a8.css",
-    "static/js/main.77cb538f.js"
+    "static/css/main.85f174b2.css",
+    "static/js/main.37268d8c.js"
   ]
 }
