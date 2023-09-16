@@ -10,12 +10,13 @@ const Start = ({fieldVal, timeVal, setShowResult, setIsLoading, setPeriod}) =>{
     return setPeriod(parseInt(10000 / time));
   }
 
-  // isLoading, showResult 상태 변경
   const handleShowResult = () => {
+    // time 입력값이 24 이상이거나 값을 입력하지 않았으면 알럿창 표시
     if(timeVal > 24) {
       alert("잘못된 값입니다. 24이하의 값을 입력해 주세요.")
-    } else if(timeVal === ""){
+    } else if(fieldVal === "" || timeVal === "" ){
       alert("입력되지 않았습니다.")
+    // 유효한 값을 입력한 경우 isLoading, showResult 상태 변경
     }else{
       if(fieldVal !== "" && timeVal !== "") {
         setIsLoading(true);
