@@ -1,0 +1,31 @@
+.modal{
+    width: 600px;
+    height: 600px;
+    background-color: var(--white);
+    color: var(--purple);
+    border-radius: 20px;
+
+    position: fixed;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.modal .cheer{
+    font-family: var(--font-tvn), sans-serif;
+    text-align: center;
+}
+.modal .cheer>p:first-child{
+    font-size: 80px;
+}
+
+.modal .cheer>p:nth-child(2){
+    font-size: 30px;
+}
+
+.modal img{
+    margin-bottom: 20px;
+}

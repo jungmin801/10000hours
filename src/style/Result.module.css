@@ -1,0 +1,22 @@
+.result{
+    margin-bottom: 80px;
+}
+
+.result .wrapper p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.result .wrapper .field,
+.result .wrapper .time{
+    padding: 0 20px;
+    font-size: 70px;
+}
+
+.result .btns{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    gap: 20px;
+}

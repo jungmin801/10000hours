@@ -1,0 +1,20 @@
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.title .clockImg{
+    position: relative;
+    width: 265px;
+    height: 265px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.title .titleImg{
+    position: absolute;
+}

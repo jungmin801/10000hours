@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('../public/font/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('../public/font/GmarketSansBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OTEnjoystoriesBA';
+    src: url('../public/font/tvn10fontMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --font-gmarketMedium: "GmarketSansMedium";
+    --font-tvn: 'OTEnjoystoriesBA';
+    --font-gmarketBold : "GmarketSansBold";
+    --purple: #5B2386;
+    --white: #fff;
+    --yellow: #FCEE21;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}

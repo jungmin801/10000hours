@@ -1,0 +1,33 @@
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.intro .quote{
+    font-size: 36px;
+    font-family: var(--font-tvn), sans-serif;
+    color: var(--yellow);
+    margin-bottom: 50px;
+}
+
+.intro .explain{
+    position: relative;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 80px;
+    line-height: 1.7;
+}
+
+.intro .explain img{
+    position: absolute;
+    padding-top: 20px;
+    left: 0;
+}
+
+
+.intro .explain span{
+    font-size: 20px;
+    font-family: var(--font-gmarketBold), var(--font-gmarketMedium), sans-serif;;
+}
