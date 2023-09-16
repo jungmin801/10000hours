@@ -9,5 +9,6 @@ footer{
 
 footer p{
     line-height: 1.5;
-    padding:20px 0;
+    padding: 20px 0;
+    text-align: center;
 }

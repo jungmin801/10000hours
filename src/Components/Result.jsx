@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import Btn from './Button';
 import styles from '../style/Result.module.css'
 
-const Result = ({fieldVal, period, isClosed, setIsClosed, handleClosed}) =>{
+const Result = ({fieldVal, period, handleShowModal}) =>{
 
     return(
         <div className={styles.result}>
@@ -19,7 +19,7 @@ const Result = ({fieldVal, period, isClosed, setIsClosed, handleClosed}) =>{
                 </p>
             </div>
             <div className={styles.btns}>
-                <Btn name="basic" onClick={handleClosed}>훈련하러 가기 GO!GO!</Btn>
+                <Btn name="basic" onClick={handleShowModal}>훈련하러 가기 GO!GO!</Btn>
                 <Btn name="share">공유하기</Btn>
             </div>  
         </div>

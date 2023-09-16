@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import styles from "../style/Inputs.module.css";
-import { useState } from "react";
 
 const InputBox = styled.input`
   border-radius: 7px;
@@ -32,8 +31,9 @@ const Inputs = ({fieldVal, setFieldVal, timeVal, setTimeVal}) => {
           placeholder="예)5시간"
           value={timeVal}
           onChange={(event) => {
-            setTimeVal(event.target.value);
-          }}
+              setTimeVal(event.target.value);
+            }
+          }
         />
         <p>시간씩 훈련할 것이다.</p>
       </div>
